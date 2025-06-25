@@ -1,0 +1,10 @@
+name: Empty Workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  empty_job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Echo
+        run: echo
